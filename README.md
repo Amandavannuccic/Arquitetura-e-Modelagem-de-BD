@@ -84,3 +84,76 @@ Como se trabalaha para criar um banco?
 Sistema de banco de dados.
 É o que iremos desenvolver aqui.
 
+
+Aula 18/08 
+Modelagem
+Todo processo de modelagem de um problema começa em entender o problema.
+
+Modelo Entidade de relacionamento.
+
+Entidade é qualquer coisa que você tem com Dados a armazenar.
+Nem tudo você vai armazenar, nem tudo você vai guardar.
+Por exemplo: Uma pizzaria na parte de pedidos, o que você tem envolvido ali, pensando em conceitos?
+- Cardápio
+isso é algo que você deve armazenar?
+Sim! 
+
+- O pedido
+Isso deve ser armazenado?
+Sim
+
+- O preço
+Isso deve ser armazenado?
+Sim!
+
+Como você sabe as coisas que se deve armazenar?
+No cardápio -> Pizzas -> Nome, Ingredientes, Preço.
+Ainda no cardápio -> Bebidas -> nome, preço, tipo.
+
+Comanda -> Mesa, Atendente, Itens -> quantidade, produto
+
+Parece uma coisa boba, mas tem muitas informações envolvidas! 
+
+O que entra em entidade?
+O cardápio tem alguma lista armazenada nele?
+Sim! 
+
+Repare que em Pizza tem "ingredientes", cada ingrediente tem uma característica (nome) 
+Como os ingredientes não variam de nome ou seja, tomate será tomate em todo lugar, isso indica que ele é uma entidade.
+Geralmente entidades vem como título no plural, outro exemplo seria "Itens" em "Comanda".
+Ou seja, itens e ingredientes são entidades.
+
+Se por acaso sua pizzaria tivesse dois cardápios, então cardápios também seria uma entidade.
+
+Se cardápios existir, Ingredientes continua sendo uma entidade?
+Não tem problema, são coisas separadas.
+
+#### Você pode pensar que cada entidade é uma tabela!
+
+Banco de cados conceitual:
+Não cadastra dois dados iguais.
+
+Por isso é importante descobrir o que o torna único!
+
+Se tem duas coisas que não podem repetir, uma deve ser a principal! 
+
+Outro exemplo:
+Digamos que eu tivesse uma entidade chamada Local, com latitude, longitude e nome.
+
+Qual seria o identificador deste cara?
+Latitude e longitude! 
+
+E agora?
+Neste caso podemos usar a união dos dois!
+Exemplo: Digamos que latitude = 1, longitude = 1 e nome é lalala.
+não poderá ser cadastrado latitude como 1 e longitude como 1, pois ja está cadastrado.
+e assim em diante, ou seja se ja tiver lat = 10 e longi = 20, não poderá ser cadastrado lat = 10 e longi = 20,
+
+Porém, neste caso, isso é possível para combinação dos dois, ou seja, seguindo o exemplo se lat = 10 e longi = 20, 
+existe a possibilidade de cadastrar lat = 10 e longi = 21, pois isso é uma nova informação. 
+
+
+
+
+
+
