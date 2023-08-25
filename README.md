@@ -152,6 +152,34 @@ e assim em diante, ou seja se ja tiver lat = 10 e longi = 20, não poderá ser c
 Porém, neste caso, isso é possível para combinação dos dois, ou seja, seguindo o exemplo se lat = 10 e longi = 20, 
 existe a possibilidade de cadastrar lat = 10 e longi = 21, pois isso é uma nova informação. 
 
+Aula 24/08/2023
+
+Relacionamento:
+
+No diagrama o simbolo correto para relacionamento é um lozango, não é necessario ser referenciado como verbo ou repetir.
+
+No banco de dados não são mapeadas coisas que não são funcionalidades, ou seja, imagine que um usuário logou no sitema e você vai citar os caminhos que ele percorreu ou ações dele, se isso não for uma funcionalidade não deve ser citada.
+
+Em um diagrama as relações denominadas "Máximo" que se refere ao maximo de relações que um item pode ter com outro costuma variar apenas em dois valores 1 e N onde N é infinito.
+O inverso é chamado Minimo, onde  o minimo é 0 (zero) .
+
+Os valores são sempre informados na seguinte ordem: Minimo, maximo.
+Exemplos: (1,1)
+Não é interessante colocar obrigatório dos dois lados, ou seja, (1,1) e (1,N).
+A intenção do obrigatório é impedir um cadastro, é importante ver se é necessário.
+Esses numeros são chamados de cardinalidade (minima e maxima)
+
+
+Problema em classe:
+Notas
+Conceito: O professor sempre tem planilhas com dados do aluno, atividades, data, nota.
+
+Existe um padrão de pergunta a ser feita: Minimo = é preciso cadastrar? 
+maximo = Quantos cadastrar?
+
+
+
+
 
 
 
