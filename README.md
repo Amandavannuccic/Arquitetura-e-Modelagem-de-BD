@@ -177,8 +177,21 @@ Conceito: O professor sempre tem planilhas com dados do aluno, atividades, data,
 Existe um padrão de pergunta a ser feita: Minimo = é preciso cadastrar? 
 maximo = Quantos cadastrar?
 
+Aula de 31/09/23
+
+Exemplo : Torneio esportivo
+
+Teremos participantes, equipes, partidas ( que ocorrem entre equipes ) 
+
+Dado este tema, com o que devemos nos preocupar?
+
+Quando o particpante de cadastrar, o que ele  deve colocar?
+e-mail, 
 
 
+Obs: muito cuidado com redundancia, se o item for contato em duas entidades, não é interessante mante-los nas duas.
+
+por exemplo, vencedor e placar, com o placar é possivel saber quem é o vencedor, ou seja sao a mesma informação duas vezes.
 
 
 
