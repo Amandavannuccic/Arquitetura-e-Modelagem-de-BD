@@ -194,6 +194,32 @@ Obs: muito cuidado com redundancia, se o item for contato em duas entidades, nã
 por exemplo, vencedor e placar, com o placar é possivel saber quem é o vencedor, ou seja sao a mesma informação duas vezes.
 
 
+Aula 12/09
+
+<h3>Autorelacionamento <h3/>
+
+O obrigatório te impede de cadastrar.
+
+Uma característica do autorelacionamenot é que você nunca vai ter obrigatoriedade.
+
+Autorelacionamento pode ser descrito como: Qual unidade da entidade exerce função sobre a outra, em alguns casos pode ser visto como hierarquia.
+
+Autorelacionamento a cardinalidade é sempre no minimo zero.
+
+<h3> Entidade Fraca <h3/>
+
+aquela que não existe sem a outra e inclusive usa o identificador da outra como parte dela.
+a contrução é chamada de critério temporal.
+que é o caso de um atributo que eu preciso saber o histórico dele com o tempo.
+
+ Critério temporal, quando preciso guardar o histórico de um atributo eu "engrosso o traço".
+ quando preciso guardar uma histórico de um relacionamento eu pinto o principal.
+
+ Gereneralização e especialização:
+ Generalização: é quando voce usa uma entidade geral para ligar a outras devido a quantidade de atributos em comum.
+ 
+
+
 
 
 
